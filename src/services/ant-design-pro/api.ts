@@ -20,9 +20,21 @@ export async function outLogin(options?: { [key: string]: any }) {
   });
 }
 
-/** 登录接口 POST /api/login/account */
+/** 登录接口 POST /api/user/login */
 export async function login(body: API.LoginParams, options?: { [key: string]: any }) {
-  return request<API.LoginResult>('/api/login/account', {
+  return request<API.LoginResult>('api/user/login', { //范型<>
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    data: body,
+    ...(options || {}),
+  });
+}
+
+/** 注册接口 POST /api/user/register */
+export async function register(body: API.RegisterParams, options?: { [key: string]: any }) {
+  return request<API.RegisterResult>('api/user/register', { //范型<>
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

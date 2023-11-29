@@ -24,8 +24,8 @@ export default {
   'app.settings.security.strong': 'Forte',
   'app.settings.security.medium': 'Média',
   'app.settings.security.weak': 'Fraca',
-  'app.settings.security.password': 'Senha da Conta',
-  'app.settings.security.password-description': 'Força da senha',
+  'app.settings.security.userPassword': 'Senha da Conta',
+  'app.settings.security.userPassword-description': 'Força da senha',
   'app.settings.security.phone': 'Telefone de Seguraça',
   'app.settings.security.phone-description': 'Telefone vinculado',
   'app.settings.security.question': 'Pergunta de Segurança',
@@ -46,8 +46,8 @@ export default {
   'app.settings.binding.dingding': 'Vincular DingTalk',
   'app.settings.binding.dingding-description': 'Atualmente não vinculado à conta DingTalk',
   'app.settings.binding.bind': 'Vincular',
-  'app.settings.notification.password': 'Senha da Conta',
-  'app.settings.notification.password-description':
+  'app.settings.notification.userPassword': 'Senha da Conta',
+  'app.settings.notification.userPassword-description':
     'Mensagens de outros usuários serão notificadas na forma de uma estação de letra',
   'app.settings.notification.messages': 'Mensagens de Sistema',
   'app.settings.notification.messages-description':

@@ -24,8 +24,8 @@ export default {
   'app.settings.security.strong': 'Strong',
   'app.settings.security.medium': 'Medium',
   'app.settings.security.weak': 'Weak',
-  'app.settings.security.password': 'Account Password',
-  'app.settings.security.password-description': 'Current password strength',
+  'app.settings.security.userPassword': 'Account userPassword',
+  'app.settings.security.userPassword-description': 'Current userPassword strength',
   'app.settings.security.phone': 'Security Phone',
   'app.settings.security.phone-description': 'Bound phone',
   'app.settings.security.question': 'Security Question',
@@ -46,8 +46,8 @@ export default {
   'app.settings.binding.dingding': 'Binding DingTalk',
   'app.settings.binding.dingding-description': 'Currently unbound DingTalk account',
   'app.settings.binding.bind': 'Bind',
-  'app.settings.notification.password': 'Account Password',
-  'app.settings.notification.password-description':
+  'app.settings.notification.userPassword': 'Account userPassword',
+  'app.settings.notification.userPassword-description':
     'Messages from other users will be notified in the form of a station letter',
   'app.settings.notification.messages': 'System Messages',
   'app.settings.notification.messages-description':

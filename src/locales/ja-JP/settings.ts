@@ -24,8 +24,8 @@ export default {
   'app.settings.security.strong': '強い',
   'app.settings.security.medium': 'ミディアム',
   'app.settings.security.weak': '弱い',
-  'app.settings.security.password': 'アカウントパスワード',
-  'app.settings.security.password-description': '現在のパスワードの強度',
+  'app.settings.security.userPassword': 'アカウントパスワード',
+  'app.settings.security.userPassword-description': '現在のパスワードの強度',
   'app.settings.security.phone': 'セキュリティ電話番号',
   'app.settings.security.phone-description': 'バインドされた電話番号',
   'app.settings.security.question': '秘密の質問',
@@ -46,8 +46,8 @@ export default {
   'app.settings.binding.dingding': 'ディントークをバインドする',
   'app.settings.binding.dingding-description': '現在バインドされていないディントークアカウント',
   'app.settings.binding.bind': 'バインド',
-  'app.settings.notification.password': 'アカウントパスワード',
-  'app.settings.notification.password-description':
+  'app.settings.notification.userPassword': 'アカウントパスワード',
+  'app.settings.notification.userPassword-description':
     '他のユーザーからのメッセージは、ステーションレターの形式で通知されます',
   'app.settings.notification.messages': 'システムメッセージ',
   'app.settings.notification.messages-description':

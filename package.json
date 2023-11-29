@@ -35,13 +35,21 @@
     "tsc": "tsc --noEmit"
   },
   "lint-staged": {
+    "**/*.less": "stylelint --syntax less",
     "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
-    "**/*.{js,jsx,tsx,ts,less,md,json}": ["prettier --write"]
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write"
+    ]
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 10"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
   "dependencies": {
     "@ant-design/icons": "^4.8.1",
     "@ant-design/pro-components": "^2.6.28",
+    "@ant-design/pro-form": "^2.23.1",
     "@ant-design/use-emotion-css": "1.0.4",
     "@umijs/route-utils": "^2.2.2",
     "antd": "^5.9.4",
@@ -86,5 +94,7 @@
     "typescript": "^5.2.2",
     "umi-presets-pro": "^2.0.3"
   },
-  "engines": { "node": ">=12.0.0" }
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }

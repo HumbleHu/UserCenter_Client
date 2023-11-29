@@ -24,8 +24,8 @@ export default {
   'app.settings.security.strong': 'Kuat',
   'app.settings.security.medium': 'Sedang',
   'app.settings.security.weak': 'Lemah',
-  'app.settings.security.password': 'Kata Sandi Akun',
-  'app.settings.security.password-description': 'Kekuatan Kata Sandi saat ini',
+  'app.settings.security.userPassword': 'Kata Sandi Akun',
+  'app.settings.security.userPassword-description': 'Kekuatan Kata Sandi saat ini',
   'app.settings.security.phone': 'Keamanan Ponsel',
   'app.settings.security.phone-description': 'Mengikat Ponsel',
   'app.settings.security.question': 'Pertanyaan Keamanan',
@@ -46,8 +46,8 @@ export default {
   'app.settings.binding.dingding': 'Mengikat DingTalk',
   'app.settings.binding.dingding-description': 'Tidak mengikat akun DingTalk',
   'app.settings.binding.bind': 'Ikat',
-  'app.settings.notification.password': 'Kata Sandi Akun',
-  'app.settings.notification.password-description':
+  'app.settings.notification.userPassword': 'Kata Sandi Akun',
+  'app.settings.notification.userPassword-description':
     'Pesan dari pengguna lain akan diberitahu dalam bentuk surat',
   'app.settings.notification.messages': 'Pesan Sistem',
   'app.settings.notification.messages-description':

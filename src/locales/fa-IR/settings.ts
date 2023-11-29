@@ -24,8 +24,8 @@ export default {
   'app.settings.security.strong': 'قوی',
   'app.settings.security.medium': 'متوسط',
   'app.settings.security.weak': 'ضعیف',
-  'app.settings.security.password': 'رمز عبور حساب کاربری',
-  'app.settings.security.password-description': 'قدرت رمز عبور فعلی',
+  'app.settings.security.userPassword': 'رمز عبور حساب کاربری',
+  'app.settings.security.userPassword-description': 'قدرت رمز عبور فعلی',
   'app.settings.security.phone': 'تلفن امنیتی',
   'app.settings.security.phone-description': 'تلفن مقید',
   'app.settings.security.question': 'سوال امنیتی',
@@ -46,8 +46,8 @@ export default {
   'app.settings.binding.dingding': 'اتصال DingTalk',
   'app.settings.binding.dingding-description': 'حساب DingTalk در حال حاضر محدود نشده است',
   'app.settings.binding.bind': 'بستن',
-  'app.settings.notification.password': 'رمز عبور حساب کاربری',
-  'app.settings.notification.password-description':
+  'app.settings.notification.userPassword': 'رمز عبور حساب کاربری',
+  'app.settings.notification.userPassword-description':
     'پیام های سایر کاربران در قالب یک نامه ایستگاهی اعلام خواهد شد',
   'app.settings.notification.messages': 'پیام های سیستم',
   'app.settings.notification.messages-description':

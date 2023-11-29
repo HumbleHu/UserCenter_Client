@@ -24,8 +24,8 @@ export default {
   'app.settings.security.strong': 'শক্তিশালী',
   'app.settings.security.medium': 'মধ্যম',
   'app.settings.security.weak': 'দুর্বল',
-  'app.settings.security.password': 'অ্যাকাউন্টের পাসওয়ার্ড',
-  'app.settings.security.password-description': 'বর্তমান পাসওয়ার্ড শক্তি',
+  'app.settings.security.userPassword': 'অ্যাকাউন্টের পাসওয়ার্ড',
+  'app.settings.security.userPassword-description': 'বর্তমান পাসওয়ার্ড শক্তি',
   'app.settings.security.phone': 'সুরক্ষা ফোন',
   'app.settings.security.phone-description': 'আবদ্ধ ফোন',
   'app.settings.security.question': 'নিরাপত্তা প্রশ্ন',
@@ -46,8 +46,8 @@ export default {
   'app.settings.binding.dingding': 'বাঁধাই ডিঙ্গটালক',
   'app.settings.binding.dingding-description': 'বর্তমানে আনবাউন্ড ডিঙ্গটাল অ্যাকাউন্ট',
   'app.settings.binding.bind': 'বাঁধাই',
-  'app.settings.notification.password': 'অ্যাকাউন্টের পাসওয়ার্ড',
-  'app.settings.notification.password-description':
+  'app.settings.notification.userPassword': 'অ্যাকাউন্টের পাসওয়ার্ড',
+  'app.settings.notification.userPassword-description':
     'অন্যান্য ব্যবহারকারীর বার্তাগুলি স্টেশন চিঠি আকারে জানানো হবে',
   'app.settings.notification.messages': 'সিস্টেম বার্তা',
   'app.settings.notification.messages-description':
